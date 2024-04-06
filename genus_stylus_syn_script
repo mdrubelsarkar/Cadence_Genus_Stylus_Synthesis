@@ -1,1 +1,11 @@
+############################################################################################################################
+############################ Cadence Genus Stylus Synthesis Script, written by Md Rubel Sarkar #############################
+############################################################################################################################
 
+# Set top level design module name
+set DESIGN top_module_name 
+
+# Set synthesizing, mapping, and optimizing effort. 
+set SYN_EFF medium 
+set MAP_EFF medium
+set OPT_EFF medium
