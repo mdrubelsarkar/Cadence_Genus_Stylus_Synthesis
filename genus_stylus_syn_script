@@ -1,5 +1,6 @@
 ############################################################################################################################
 ############################ Cadence Genus Stylus Synthesis Script, written by Md Rubel Sarkar #############################
+############################                      Mode: Common UI                              #############################
 ############################################################################################################################
 
 # Set top level design module name
@@ -9,3 +10,20 @@ set DESIGN top_module_name
 set SYN_EFF medium 
 set MAP_EFF medium
 set OPT_EFF medium
+
+# Set RTL directory location (e.g. home/work/rtl_dir/) for later use.
+set rtlDir rtl_directory_location
+
+
+# With genus MMMC flow can be added. MMMC file deals with PVT variations. Commented out this portion as we can synthesize without MMMC option. 
+# Read the mmmc file first. This file needs to be written separately.
+# read_mmmc file_location
+# This command should be issued after read_libs or read_mmmc command else there will be error
+# read_physical -lefs 
+# Now initialize the design using following command
+# init_design
+
+
+
+
+
